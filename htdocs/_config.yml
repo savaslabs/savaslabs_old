@@ -34,6 +34,8 @@ social:
 address:
   - line: 824 Burch Ave.
   - line: Durham, NC 27701
+  - line: (919) 432-4660
+
 
 # Credits content
 credits: 'Should we give jekyll credits here?'
