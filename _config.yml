@@ -43,3 +43,6 @@ credits: 'Should we give jekyll credits here?'
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# To avoid errors when using Travis-CI
+exclude: [vendor]
