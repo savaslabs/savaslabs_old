@@ -9,7 +9,7 @@ script: ./script/cibuild
 branches:
   only:
   - master
-  - 19-Travis-CI
+  - 19-TravisCI
 
 env:
   global:
