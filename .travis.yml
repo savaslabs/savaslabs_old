@@ -1,16 +1,15 @@
 language: ruby
 
 rvm:
-- 2.0 # set Ruby version
+- 2.0 # Set Ruby version.
 
 script: ./script/cibuild
 
-# branch whitelist
+# Branch whitelist.
 branches:
   only:
   - master
-  - 19-TravisCI
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # Speeds up installation of html-proofer.
