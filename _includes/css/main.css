@@ -203,6 +203,17 @@ section.success {
 
 .logo-text {
     width: 600px;
+
+.profile-item {
+    margin-top: 20px;
+}
+
+.profile-item img {
+    width: 200px;
+}
+
+.profile-item p {
+    color: #{{ site.color.secondary-dark }};
 }
 
 #portfolio .portfolio-item {
