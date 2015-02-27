@@ -1,0 +1,15 @@
+language: ruby
+
+rvm:
+- 2.0 # Set Ruby version.
+
+script: ./script/cibuild
+
+# Branch whitelist.
+branches:
+  only:
+  - master
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # Speeds up installation of html-proofer.
