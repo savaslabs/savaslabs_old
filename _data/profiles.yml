@@ -1,0 +1,78 @@
+- name: Chris Russo
+  firstname: Chris
+  title: Founder
+  img: chris_square.jpg
+  modal-id: 1
+  bio: 
+  >
+    Chris Russo has been a professional web developer since 2007 and made his
+    first website on geocities.com when he was 11. He was a big fan of <blink></blink>
+    was deeply saddened when it became a deprecated element
+    (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink).
+    For Savas, Chris most enjoys providing bespoke solutions for clients,
+    and writing in the third person. When Chris is not behind the computer,
+    he’s probably doing something related to a bicycle. He is the Board President
+    of nonprofit hospitality network WarmShowers.org, he serves on the board of his
+    local bicycle advocacy organization Bike Durham, he founded a bicycle-powered
+    food scraps recycling company called Tilthy Rich Compost, and rode his bicycle
+    6,000 miles across the U.S. in the summer of 2008.
+
+- name: Kosta Harlan
+  firstname: Kosta
+  title: Director of Technology
+  img: kosta_square.jpg
+  modal-id: 2
+  bio:
+  >
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens
+    corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts
+    fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber
+    earthnut pea peanut soko zucchini.
+
+- name: Dan Murphy
+  firstname: Dan
+  title: Developer
+  img: dan_square.jpg
+  modal-id: 3
+  bio:
+  >
+    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi
+    amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale.
+    Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root
+    water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale
+    pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut
+    gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth
+    salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
+
+- name: Tim Stallmann
+  firstname: Tim
+  title: Developer
+  img: tim_square.jpg
+  modal-id: 4
+  bio:
+  >
+    Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.
+    Bunya nuts black eyed pea prairie turnip leek lentil turnip greens parsnip. Sea
+    lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut
+    pea sierra leone bologi leek soko chicory celtuce parsley jÃ­cama salsify. Celery
+    quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram
+    celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot
+    horseradish carrot squash brussels sprout chard.
+
+- name: Anne Tomasevich
+  firstname: Anne
+  title: Developer
+  img: anne_square.jpg
+  modal-id: 5
+  bio:
+  >
+    Anne Tomasevich studied engineering and worked at a Contract Research Organization
+    for five years before realizing that she actually wants to be a web developer. She
+    joins Savas as a fairly new developer with an interest in the front end, particularly
+    Sass and CSS3. She just read a book about CSS3 and is inordinately excited about it.
+    Besides furiously studying to become a computer geek, Anne enjoys cooking, playing
+    old Zelda games, and all things musical. She plays piano (and occasionally ukulele)
+    in local bands My Brother, My Sister and Jon Sebastian and the Tresspassers. The
+    latter band had a song featured on NPR Music's Favorite Songs of 2014, which you can
+    listen to (here.)[http://jonsebastian.bandcamp.com/track/nightmare-sisters]
