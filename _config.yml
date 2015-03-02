@@ -6,9 +6,9 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: E9168C
-  secondary: FF8E1D
-  secondary-dark: 94115E
+  primary: A10564
+  secondary: F7D611
+  secondary-dark: F6433E
 
 # Footer settings
 footer:
