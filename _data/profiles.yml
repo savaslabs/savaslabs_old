@@ -6,9 +6,9 @@
   bio: 
   >
     Chris Russo has been a professional web developer since 2007 and made his
-    first website on geocities.com when he was 11. He was a big fan of the <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink">blink</a>
-    element and was deeply saddened when it became a deprecated element.
+    first website on geocities.com when he was 11. He was a big fan of
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink"><code>&lt;blink&gt;&lt;/blink&gt;</code></a>
+    and was deeply saddened when it became a deprecated element.
     For Savas, Chris most enjoys providing bespoke solutions for clients,
     and writing in the third person. When Chris is not behind the computer,
     he’s probably doing something related to a bicycle. He is the Board President
@@ -75,6 +75,6 @@
     Sass and CSS3. She just read a book about CSS3 and is inordinately excited about it.
     Besides furiously studying to become a computer geek, Anne enjoys cooking, playing
     old Zelda games, and all things musical. She plays piano (and occasionally ukulele)
-    in local bands My Brother, My Sister and Jon Sebastian and the Tresspassers. The
-    latter band had a <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters">song</a>
+    in local bands My Brother, My Sister and Jon Sebastian and the Tresspassers, who
+    had a <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters">song</a>
     featured on NPR Music's Favorite Songs of 2014.
