@@ -170,6 +170,13 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-default .navbar-nav li.active a,
+.navbar-default .navbar-nav li.active a:hover,
+.navbar-default .navbar-nav li.active a:focus {
+    background-color: #{{ site.color.secondary-dark }};
+    border-radius: 6px;
+}
+
 section {
     padding: 100px 0;
 }
