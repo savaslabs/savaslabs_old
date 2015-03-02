@@ -1,9 +1,9 @@
     <!-- Footer -->
-    <footer class="text-center">
+    <footer id="footer" class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4 col-md-offset-1">
+                    <div class="footer-col col-md-4">
                         <h3>{{ site.footer.location }}</h3>
                         <p>
                             {% for adress in site.address %}
@@ -11,7 +11,7 @@
 		                    {% endfor %}
                         </p>
                     </div>
-                    <div class="footer-col col-md-4 col-md-offset-1">
+                    <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
@@ -22,8 +22,12 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <h3>{{ site.footer.contact }}</h3>
+                        <p>
+                            {% for contactinfo in site.contact %}
+                                {{ contactinfo.line }} <br>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
             </div>

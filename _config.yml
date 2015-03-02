@@ -15,6 +15,7 @@ footer:
   copyright: Savas Labs
   location: Location
   social: Around the Web
+  contact: Contact
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -30,6 +31,10 @@ address:
   - line: American Underground
   - line: 201 W Main St.
   - line: Durham, NC 27701
+
+# Contact information
+contact:
+  - line: <a href="mailto:info@savaslabs.com">info@savaslabs.com</a>
   - line: (919) 432-4660
 
 # Build settings
