@@ -203,17 +203,22 @@ section.success {
 
 .logo-text {
     width: 600px;
+}
 
 .profile-item {
     margin-top: 20px;
 }
 
-.profile-item img {
-    width: 200px;
+.profile-item h3 {
+    margin: 50px 0 20px;
 }
 
 .profile-item p {
     color: #{{ site.color.secondary-dark }};
+}
+
+.profile-item img {
+    width: 250px;
 }
 
 #portfolio .portfolio-item {
