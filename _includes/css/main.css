@@ -258,6 +258,11 @@ section.success {
     }
 }
 
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #{{ site.color.secondary-dark }};
+    border-color: #{{ site.color.secondary-dark }};
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
