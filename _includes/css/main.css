@@ -215,10 +215,11 @@ section.success {
 
 .profile-item p {
     color: #{{ site.color.secondary-dark }};
+    font-size: 17px;
 }
 
 .profile-item img {
-    width: 250px;
+    width: 200px;
 }
 
 #portfolio .portfolio-item {
