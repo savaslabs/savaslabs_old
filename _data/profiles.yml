@@ -5,16 +5,15 @@
   modal-id: 1
   bio: 
   >
-    Chris Russo has been a professional web developer since 2007 and made his
-    first website on geocities.com when he was 11. He was a big fan of
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink"><code>&lt;blink&gt;&lt;/blink&gt;</code></a>
-    and was deeply saddened when it became a deprecated element.
-    For Savas, Chris most enjoys providing bespoke solutions for clients,
-    and writing in the third person. When Chris is not behind the computer,
-    he’s probably doing something related to a bicycle. He is the Board President
-    of nonprofit hospitality network WarmShowers.org, he serves on the board of his
-    local bicycle advocacy organization Bike Durham, he founded a bicycle-powered
-    food scraps recycling company called Tilthy Rich Compost, and rode his bicycle
+    Chris has been a professional web developer since 2007 and made his first website
+    on geocities.com when he was 11. He was a big fan of
+    <code>&lt;blink&gt;&lt;/blink&gt;</code> and was deeply saddened when it became a 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink">deprecated element.</a>
+    For Savas, Chris most enjoys providing bespoke solutions for clients, and writing in
+    the third person. When Chris is not behind the computer, he’s probably doing something
+    related to a bicycle. He is the Board President of nonprofit hospitality network WarmShowers.org,
+    he serves on the board of his local bicycle advocacy organization Bike Durham, he founded
+    a bicycle-powered food scraps recycling company called Tilthy Rich Compost, and rode his bicycle
     6,000 miles across the U.S. in the summer of 2008.
 
 - name: Kosta Harlan
@@ -24,13 +23,13 @@
   modal-id: 2
   bio:
   >
-    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
-    daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens
-    corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts
-    fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber
-    earthnut pea peanut soko zucchini. Brussels sprout coriander water chestnut
-    gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth
-    salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
+    Kosta is a programmer with ten years of web development experience. As directory of
+    technology at Savas Labs, he is involved in site architecture, code review, and
+    development. Kosta has a deep level of experience in Drupal data migration and complex
+    site builds and is an active <a href="https://www.drupal.org/u/kostajh">contributor</a>
+    to the Drupal ecosystem, in submitting patches, maintaining modules and Drush extensions.
+    When not hacking away in Emacs, Kosta is engaged in social justice organizing, working to
+    improve soccer facilities in the Durham community, practicing the oud and piano, and raising his son.
 
 - name: Dan Murphy
   firstname: Dan
@@ -55,7 +54,7 @@
   modal-id: 4
   bio:
   >
-    Tim Stallmann is a cartographer and web developer. His web development experience dates
+    Tim is a cartographer and web developer. His web development experience dates
     all the way back to the last millennium, back when frames were in fashion. Tim fell
     into Drupal via a web mapping project and has been enjoying exploring the possibilities
     of that framework and building his web skills with the Savas team. Outside of work, Tim
@@ -72,12 +71,11 @@
   modal-id: 5
   bio:
   >
-    Anne Tomasevich received a B.S. in textile engineering and worked at a Contract Research
+    Anne received a B.S. in textile engineering and worked at a Contract Research
     Organization for five years before realizing that she actually wants to be a web developer.
     She joins Savas as a fairly new developer with an interest in the front end, particularly
-    Sass and CSS3. She just read a book about CSS3 and is inordinately excited about it.
-    Besides furiously studying to become a computer geek, Anne enjoys cooking, playing
-    old Zelda games, and all things musical. She plays piano (and occasionally ukulele)
+    Sass and CSS3. Besides furiously studying to become a computer geek, Anne enjoys cooking,
+    playing old Zelda games, and all things musical. She plays piano (and occasionally ukulele)
     in local bands My Brother, My Sister and Jon Sebastian and the Tresspassers, who
     had a <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters">song</a>
     featured on NPR Music's Favorite Songs of 2014.
