@@ -205,6 +205,24 @@ section.success {
     width: 600px;
 }
 
+.profile-item {
+    margin-top: 20px;
+}
+
+.profile-item h3 {
+    margin: 50px 0 10px;
+}
+
+.profile-item p {
+    color: #{{ site.color.secondary-dark }};
+    font-size: 19px;
+}
+
+.profile-item img {
+    border-radius: 6px;
+    width: 95%;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;

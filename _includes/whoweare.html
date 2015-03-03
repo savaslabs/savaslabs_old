@@ -7,21 +7,20 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Savas is a team of people. It's true.
-                    It's Anne, Chris, Dan, Kosta, and Tim in alphabetical first
-                    name order.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>
-                        Eventually.... <br />
-                        There will be a picture and a blurb <br />
-                        For each person <br />
-                        Once we actually, you know, do those things.
-                    </p>
+            {% for profile in site.data.profiles %}
+            <div class="row profile-item">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h3>{{ profile.name }}, {{ profile.title }}</h3>
                 </div>
             </div>
-
+            <div class="row profile-item">
+                <div class="col-lg-3 col-lg-offset-1">
+                    <img src="/img/profiles/{{ profile.img }}" class="img-responsive" alt="{{ profile.name }}">
+                </div>
+                <div class="col-lg-7">
+                    <p>{{ profile.bio }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </section>
