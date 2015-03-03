@@ -215,12 +215,12 @@ section.success {
 
 .profile-item p {
     color: #{{ site.color.secondary-dark }};
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .profile-item img {
     border-radius: 6px;
-    width: 100%;
+    width: 95%;
 }
 
 #portfolio .portfolio-item {
