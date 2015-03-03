@@ -210,16 +210,17 @@ section.success {
 }
 
 .profile-item h3 {
-    margin: 50px 0 20px;
+    margin: 50px 0 10px;
 }
 
 .profile-item p {
     color: #{{ site.color.secondary-dark }};
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .profile-item img {
-    width: 200px;
+    border-radius: 6px;
+    width: 100%;
 }
 
 #portfolio .portfolio-item {
