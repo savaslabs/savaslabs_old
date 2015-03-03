@@ -67,16 +67,20 @@ hr.star-dark:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary-dark }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.secondary-dark }};
     background-color: #fff;
 }
 
 .img-centered {
     margin: 0 auto;
+}
+
+.light-background {
+    color: #{{ site.color.secondary-dark }};
 }
 
 header {
@@ -214,12 +218,12 @@ section.success {
 }
 
 .profile-item p {
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary }};
     font-size: 19px;
 }
 
 .profile-item a {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.secondary-dark }};
 }
 
 .profile-item img {
