@@ -115,7 +115,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.75em;
     }
 
     header .intro-text .skills {
@@ -199,6 +199,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+.logo-text {
+    width: 600px;
 }
 
 #portfolio .portfolio-item {
