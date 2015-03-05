@@ -303,6 +303,11 @@ section.success {
     }
 }
 
+.btn-default {
+    background-color: #{{ site.color.secondary-dark }};
+    border-color: #{{ site.color.secondary-dark }};
+}
+
 .btn-success:hover,
 .btn-success:focus {
     background-color: #{{ site.color.secondary-dark }};

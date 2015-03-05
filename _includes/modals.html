@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for website in site.data.portfolio %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ website.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ website.title }}</h2>
+                            <h2>{{ website.name }}</h2>
                             <hr class="star-primary">
                             <img src="/img/portfolio/{{ website.logo }}" class="img-responsive img-centered" alt="{{ website.name }}">
                             <p>{{ website.description }}</p>
