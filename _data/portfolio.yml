@@ -3,29 +3,21 @@
   logo: compostpedallers_logo_brand.png
   modal-id: 1
   description: 
-  >
-    Add description.
 
 - name: MIT Press
   classname: mitpress
   logo: mitpress_logo_brand.png
   modal-id: 2
   description: 
-  >
-    Add description.
-
 - name: CWCon
   classname: cwcon
   logo: cwcon_logo_brand.png
   modal-id: 3
   description: 
-  >
-    Add description.
 
 - name: Transaction Advisors
   classname: transactionadvisors
   logo: transactionadvisors_logo_brand.png
   modal-id: 4
   description: 
-  >
-    Add description.
+  
