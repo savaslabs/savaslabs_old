@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.light }};
 }
 
 .accent-hover:hover {
@@ -65,30 +65,30 @@ hr.star-bright:after {
 }
 
 hr.star-dark {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.dark }};
 }
 
 hr.star-dark:after {
-    color: #{{ site.color.secondary }};
-    background-color: #{{ site.color.primary }};
+    color: #{{ site.color.dark }};
+    background-color: #{{ site.color.light }};
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary-dark }};
+    border-color: #{{ site.color.medium }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.medium }};
     background-color: #fff;
 }
 
 hr.star-bright {
-    border-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.light }};
 }
 
 hr.star-bright:after {
-    color: #{{ site.color.primary }};
-    background-color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.light }};
+    background-color: #{{ site.color.medium }};
 }
 
 .img-centered {
@@ -96,13 +96,13 @@ hr.star-bright:after {
 }
 
 .light-background {
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.medium }};
 }
 
 header {
     text-align: center;
-    color: #{{ site.color.secondary }};
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.dark }};
+    background: #{{ site.color.light }};
 }
 
 header .container {
@@ -194,7 +194,7 @@ header .intro-text .skills {
 .navbar-default .navbar-nav li.active a,
 .navbar-default .navbar-nav li.active a:hover,
 .navbar-default .navbar-nav li.active a:focus {
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.medium }};
     border-radius: 6px;
 }
 
@@ -208,8 +208,8 @@ section h2 {
 }
 
 section.success {
-    color: #{{ site.color.secondary }};
-    background-color: #{{ site.color.primary }};
+    color: #{{ site.color.dark }};
+    background-color: #{{ site.color.light }};
 }
 
 @media(max-width:767px) {
@@ -231,12 +231,12 @@ section.success {
 }
 
 .profile-item p {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.dark }};
     font-size: 19px;
 }
 
 .profile-item a {
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.medium }};
 }
 
 .profile-item img {
@@ -276,7 +276,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    /* This should be equal to the site primary color */
+    /* This should be equal to the site 'light' color */
     background: rgba(244, 209, 166, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -318,8 +318,8 @@ section.success {
 }
 
 .btn-default {
-    background-color: #{{ site.color.secondary-dark }};
-    border-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.medium }};
+    border-color: #{{ site.color.medium }};
 }
 
 .btn-default:hover,
@@ -330,8 +330,8 @@ section.success {
 
 .btn-success:hover,
 .btn-success:focus {
-    background-color: #{{ site.color.secondary-dark }};
-    border-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.medium }};
+    border-color: #{{ site.color.medium }};
 }
 
 .btn-outline {
@@ -401,7 +401,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.light }};
 }
 
 form .row:first-child .floating-label-form-group {
@@ -418,7 +418,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.dark }};
 }
 
 footer .footer-col {
@@ -427,7 +427,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.medium }};
 }
 
 .btn-social {
@@ -511,7 +511,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.dark }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -521,7 +521,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.dark }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

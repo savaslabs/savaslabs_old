@@ -6,10 +6,10 @@ description: "Savas Labs, web developers in Durham, North Carolina"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: F4D1A6
-  secondary: 14133B
-  secondary-dark: 9E023B
-  accent: F6433E
+  light: F4D1A6 # beige
+  medium: 9E023B # fuschia
+  dark: 14133B # dark blue
+  accent: F6433E # orange
 
 # Footer settings
 footer:
