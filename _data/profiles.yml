@@ -8,7 +8,7 @@
     Chris has been a professional web developer since 2007 and made his first website
     on geocities.com when he was 11. He was a big fan of
     <code>&lt;blink&gt;&lt;/blink&gt;</code> and was deeply saddened when it became a 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink">deprecated element.</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink" class="accent-hover">deprecated element.</a>
     For Savas, Chris most enjoys providing bespoke solutions for clients, and writing in
     the third person. When Chris is not behind the computer, he’s probably doing something
     related to a bicycle. He is the Board President of nonprofit hospitality network WarmShowers.org,
@@ -26,7 +26,7 @@
     Kosta is a programmer with ten years of web development experience. As directory of
     technology at Savas Labs, he is involved in site architecture, code review, and
     development. Kosta has a deep level of experience in Drupal data migration and complex
-    site builds and is an active <a href="https://www.drupal.org/u/kostajh">contributor</a>
+    site builds and is an active <a href="https://www.drupal.org/u/kostajh" class="accent-hover">contributor</a>
     to the Drupal ecosystem, in submitting patches, maintaining modules and Drush extensions.
     When not hacking away in Emacs, Kosta is engaged in social justice organizing, working to
     improve soccer facilities in the Durham community, practicing the oud and piano, and raising his son.
@@ -58,10 +58,10 @@
     all the way back to the last millennium, back when frames were in fashion. Tim fell
     into Drupal via a web mapping project and has been enjoying exploring the possibilities
     of that framework and building his web skills with the Savas team. Outside of work, Tim
-    is an avid <a href="http://cakeyear.tumblr.com">baker</a>, and active in social justice
+    is an avid <a href="http://cakeyear.tumblr.com" class="accent-hover">baker</a>, and active in social justice
     work. He's a founding member of the
-    <a href="http://www.countercartographies.org">Counter-Cartographies Collective</a>
-    and part of the <a href="http://www.ourmaps.net">OurMaps project</a>. He has an MA in
+    <a href="http://www.countercartographies.org" class="accent-hover">Counter-Cartographies Collective</a>
+    and part of the <a href="http://www.ourmaps.net" class="accent-hover">OurMaps project</a>. He has an MA in
     Mathematics from Duke University, and an MA in Geography from UNC Chapel Hill.
 
 - name: Anne Tomasevich
@@ -77,5 +77,5 @@
     Sass and CSS3. Besides furiously studying to become a computer geek, Anne enjoys cooking,
     playing old Zelda games, and all things musical. She plays piano (and occasionally ukulele)
     in local bands My Brother, My Sister and Jon Sebastian and the Tresspassers, who
-    had a <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters">song</a>
+    had a <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters" class="accent-hover">song</a>
     featured on NPR Music's Favorite Songs of 2014.
