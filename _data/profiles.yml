@@ -2,7 +2,6 @@
   firstname: Chris
   title: Founder
   img: chris_square.jpg
-  modal-id: 1
   bio: 
   >
     Chris has been a professional web developer since 2007 and made his first website
@@ -20,7 +19,6 @@
   firstname: Kosta
   title: Director of Technology
   img: kosta_square.jpg
-  modal-id: 2
   bio:
   >
     Kosta is a programmer with ten years of web development experience. As directory of
@@ -35,7 +33,6 @@
   firstname: Dan
   title: Developer
   img: dan_square.jpg
-  modal-id: 3
   bio:
   >
     Dan has worked as a web developer for the past two years specializing in the Drupal
@@ -51,7 +48,6 @@
   firstname: Tim
   title: Developer
   img: tim_square.jpg
-  modal-id: 4
   bio:
   >
     Tim is a cartographer and web developer. His web development experience dates
@@ -68,14 +64,13 @@
   firstname: Anne
   title: Developer
   img: anne_square.jpg
-  modal-id: 5
   bio:
   >
-    Anne received a B.S. in textile engineering and worked at a Contract Research
-    Organization for five years before realizing that she actually wants to be a web developer.
-    She joins Savas as a fairly new developer with an interest in the front end, particularly
-    Sass and CSS3. Besides furiously studying to become a computer geek, Anne enjoys cooking,
-    playing old Zelda games, and all things musical. She plays piano (and occasionally ukulele)
-    in local bands My Brother, My Sister and Jon Sebastian and the Tresspassers, who
-    had a <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters" class="accent-hover">song</a>
+    Anne received a B.S. in textile engineering and worked in the clinical research industry for
+    five years before becoming a web developer. She brings to Savas process development, project
+    coordination and client relations skills and is particularly interested in Sass, CSS3, and
+    Object-Oriented CSS. When her laptop is closed, Anne enjoys cooking, playing old Zelda games,
+    and all things musical. She plays piano (and occasionally ukulele) in local bands My Brother,
+    My Sister and Jon Sebastian and the Tresspassers, who had a
+    <a href="http://jonsebastian.bandcamp.com/track/nightmare-sisters" class="accent-hover">song</a>
     featured on NPR Music's Favorite Songs of 2014.
