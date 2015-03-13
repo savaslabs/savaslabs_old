@@ -99,10 +99,13 @@ hr.star-light:after {
     color: #{{ site.color.medium }};
 }
 
+.dark-background {
+    background-color: #{{ site.color.light }};
+}
+
 header {
     text-align: center;
     color: #{{ site.color.dark }};
-    background: #{{ site.color.light }};
 }
 
 header .container {
@@ -131,7 +134,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 125px;
         padding-bottom: 100px;
     }
 
@@ -141,6 +144,14 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+}
+
+@media(min-width:1200px) {
+    header .right-frame {
+        text-align: left;
+        border-left: 4px solid white;
+        padding-left: 30px
     }
 }
 
@@ -526,4 +537,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+a.navbar-brand {
+    padding:0;
 }
