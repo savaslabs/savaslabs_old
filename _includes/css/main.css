@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p, li {
@@ -37,58 +38,14 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Martel Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
 }
 
-hr.star-dark,
-hr.star-medium,
-hr.star-light {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-}
-
-hr.star-dark:after,
-hr.star-medium:after,
-hr.star-light:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-dark {
-    border-color: #{{ site.color.dark }};
-}
-
-hr.star-dark:after {
-    color: #{{ site.color.dark }};
-    background-color: #{{ site.color.light }};
-}
-
-hr.star-medium {
-    border-color: #{{ site.color.medium }};
-}
-
-hr.star-medium:after {
-    color: #{{ site.color.medium }};
-    background-color: #fff;
-}
-
-hr.star-light {
-    border-color: #{{ site.color.light }};
-}
-
-hr.star-light:after {
-    color: #{{ site.color.light }};
-    background-color: #{{ site.color.medium }};
+hr {
+    width: 250px;
+    border-top: none;
+    border-bottom: 3px solid #{{ site.color.dark }};
 }
 
 .img-centered {
@@ -110,18 +67,18 @@ header .container {
     padding-bottom: 50px;
 }
 
-header img {
+/*header img {
     display: block;
     margin: 0 auto 100px;
     width: 400px;
-}
+}*/
 
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Martel Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 header .intro-text .skills {
@@ -131,8 +88,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 125px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
@@ -142,6 +99,12 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+}
+
+header .right-frame {
+    text-align: left;
+    padding-left: 30px;
+    margin-top:50px;
 }
 
 @media(min-width:768px) {
@@ -170,8 +133,12 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Martel Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+
+.navbar li {
+    font-size: 22px;
 }
 
 .navbar a:focus {
@@ -526,4 +493,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+a.navbar-brand {
+    padding:0;
 }
