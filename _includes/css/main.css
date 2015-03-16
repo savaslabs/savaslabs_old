@@ -41,54 +41,12 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-dark,
-hr.star-medium,
-hr.star-light {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-}
-
-hr.star-dark:after,
-hr.star-medium:after,
-hr.star-light:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-dark {
-    border-color: #{{ site.color.dark }};
-}
-
-hr.star-dark:after {
-    color: #{{ site.color.dark }};
-    background-color: #{{ site.color.light }};
-}
-
-hr.star-medium {
-    border-color: #{{ site.color.medium }};
-}
-
-hr.star-medium:after {
-    color: #{{ site.color.medium }};
-    background-color: #fff;
-}
-
-hr.star-light {
-    border-color: #{{ site.color.light }};
-}
-
-hr.star-light:after {
-    color: #{{ site.color.light }};
-    background-color: #{{ site.color.medium }};
+hr {
+    width: 257px;
+    height: 10px;
+    background-image: url('img/HR_Pattern.png');
+    background-repeat: repeat;
+    border-top: none;
 }
 
 .img-centered {
@@ -99,13 +57,10 @@ hr.star-light:after {
     color: #{{ site.color.medium }};
 }
 
-.dark-background {
-    background-color: #{{ site.color.light }};
-}
-
 header {
     text-align: center;
     color: #{{ site.color.dark }};
+    background: #{{ site.color.light }};
 }
 
 header .container {
@@ -135,7 +90,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 125px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
@@ -150,7 +105,6 @@ header .intro-text .skills {
 @media(min-width:1200px) {
     header .right-frame {
         text-align: left;
-        border-left: 4px solid white;
         padding-left: 30px
     }
 }
