@@ -42,11 +42,9 @@ h6 {
 }
 
 hr {
-    width: 257px;
-    height: 10px;
-    background-image: url('img/HR_Pattern.png');
-    background-repeat: repeat;
+    width: 250px;
     border-top: none;
+    border-bottom: 3px solid #{{ site.color.dark }};
 }
 
 .img-centered {
