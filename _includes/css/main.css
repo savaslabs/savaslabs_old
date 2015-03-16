@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p, li {
@@ -38,7 +38,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Nunito,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Martel Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 800;
 }
 
@@ -76,7 +76,7 @@ header .container {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Nunito,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Martel Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 800;
 }
@@ -133,7 +133,7 @@ header .right-frame {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Nunito,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Martel Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 800;
 }
 
