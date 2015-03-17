@@ -9,9 +9,10 @@
   logo: mitpress_logo_brand.png
   modal-id: 2
   description: 
-- name: CWCon
-  classname: cwcon
-  logo: cwcon_logo_brand.png
+
+- name: MIT CogNet
+  classname: cognet
+  logo: cognet_logo_brand.png
   modal-id: 3
   description: 
 
