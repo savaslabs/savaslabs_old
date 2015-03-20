@@ -44,3 +44,44 @@ permalink: pretty
 
 # To avoid errors when using Travis-CI
 exclude: [vendor]
+
+# Prose configuration
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://savaslabs.com'
+  relativeLinks: 'http://savaslabs.com/links.jsonp'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          placeholder: "Choose an Author."
+          options:
+            - name: "Anne Tomasevich"
+              value: "Anne Tomasevich"
+            - name: "Chris Russo"
+              value: "Chris Russo"
+            - name: "Dan Murphy"
+              value: "Dan Murphy"
+            - name: "Kosta Harlan"
+              value: "Kosta Harlan"
+            - name: "Tim Stallmann"
+              value: "Tim Stallmann"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
