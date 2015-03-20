@@ -65,10 +65,20 @@ prose:
           type: "text"
       - name: "author"
         field:
-          element: "text"
+          element: "select"
           label: "Author"
-          value: ""
-          type: "text"
+          placeholder: "Choose an Author."
+          options:
+            - name: "Anne Tomasevich"
+              value: "Anne Tomasevich"
+            - name: "Chris Russo"
+              value: "Chris Russo"
+            - name: "Dan Murphy"
+              value: "Dan Murphy"
+            - name: "Kosta Harlan"
+              value: "Kosta Harlan"
+            - name: "Tim Stallmann"
+              value: "Tim Stallmann"
       - name: "tags"
         field:
           element: "multiselect"
