@@ -46,6 +46,7 @@ hr {
     width: 250px;
     border-top: none;
     border-bottom: 3px solid #{{ site.color.dark }};
+    margin-bottom: 35px;
 }
 
 .img-centered {
@@ -67,11 +68,9 @@ header .container {
     padding-bottom: 50px;
 }
 
-/*header img {
-    display: block;
-    margin: 0 auto 100px;
-    width: 400px;
-}*/
+header img {
+    margin-top: 25px;
+}
 
 header .intro-text .name {
     display: block;
@@ -104,7 +103,12 @@ header .intro-text .skills {
 header .right-frame {
     text-align: left;
     padding-left: 30px;
-    margin-top:50px;
+    margin-top: 50px;
+}
+
+header .right-frame li {
+    list-style-type: none;
+    margin-bottom: 15px;
 }
 
 @media(min-width:768px) {
@@ -138,7 +142,7 @@ header .right-frame {
 }
 
 .navbar li {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .navbar a:focus {
