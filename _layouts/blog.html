@@ -12,7 +12,7 @@
             {% for post in paginator.posts %}
             <div class="blog-post">
               <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-              <p class="post-info small">Posted by {{ post.author }} on {{ post.date }}</p>
+              <p class="post-info small">Posted by {{ post.author }} on {{ post.date | date: "%F" }}</p>
               <div class="summary">
                 <p>{{ post.summary }}</p>
               </div>

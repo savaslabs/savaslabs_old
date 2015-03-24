@@ -505,9 +505,14 @@ a.navbar-brand {
 
 /* Blog page */
 .blog-post {
-    margin: 100px 0;
+    padding: 30px 0;
 }
-.blog-post a, .pagination a {
+
+.blog-post:first-child {
+    margin-top: 30px;
+}
+
+.blog-post a, .pagination a, .post-header h1 {
     color: #{{ site.color.medium }};
     text-decoration: none;
 }
@@ -519,4 +524,8 @@ a.navbar-brand {
 
 .pagination {
     font-size: 20px;
+}
+
+.post-header {
+    margin-bottom: 50px;
 }
