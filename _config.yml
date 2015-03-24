@@ -83,6 +83,12 @@ prose:
               value: "Kosta Harlan"
             - name: "Tim Stallmann"
               value: "Tim Stallmann"
+      - name: "summary"
+        field:
+          element: "text"
+          label: "Summary"
+          value: ""
+          type: "text"
       - name: "tags"
         field:
           element: "multiselect"
