@@ -502,3 +502,21 @@ footer .footer-below {
 a.navbar-brand {
     padding:0;
 }
+
+/* Blog page */
+.blog-post {
+    margin: 100px 0;
+}
+.blog-post a, .pagination a {
+    color: #{{ site.color.medium }};
+    text-decoration: none;
+}
+
+.blog-post a:hover,
+.blog-post a:focus {
+    color: #{{ site.color.accent }};
+}
+
+.pagination {
+    font-size: 20px;
+}
