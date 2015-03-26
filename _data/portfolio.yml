@@ -9,17 +9,20 @@
   classname: mitpress
   logo: mitpress_logo_brand.png
   modal-id: 2
-  description: The <a href="http://mitpress.mit.edu">MIT Press</a> is the only university press in the United States whose list is based in science and technology. Since 2014, Savas has refactored substantial portions of the MIT Press Drupal codebase for improved security, usability, and performance, and has collaborated with MIT Press to deploy new microsites, upgrade existing systems, and deploy new features to the website, including large scale data integration with an external database of MIT Press book titles.
+  description: |
+    The <a href="http://mitpress.mit.edu">MIT Press</a> is the only university press in the United States whose list is based in science and technology. Since 2014, Savas has refactored substantial portions of the MIT Press Drupal codebase for improved security, usability, and performance, and has collaborated with MIT Press to deploy new microsites, upgrade existing systems, and deploy new features to the website, including large scale data integration with an external database of MIT Press book titles.
 
 - name: MIT CogNet
   classname: cognet
   logo: cognet_logo_brand.png
   modal-id: 3
-  description: <a href="http://cognet.mit.edu">MIT Press CogNet</a> is the essential online resource for students and scholars in the brain and cognitive sciences. Since its launch in 2000, it quickly became the premiere source for those engaged in highly-cited, cutting-edge research. Savas developers built out the Drupal theme design provided by MIT Press for the relaunch of the site in Drupal 7 (coming later in 2015), and refactored legacy code to use Drupal 7 APIs and follow best practices.
+  description: |
+    <a href="http://cognet.mit.edu">MIT Press CogNet</a> is the essential online resource for students and scholars in the brain and cognitive sciences. Since its launch in 2000, it quickly became the premiere source for those engaged in highly-cited, cutting-edge research. Savas developers built out the Drupal theme design provided by MIT Press for the relaunch of the site in Drupal 7 (coming later in 2015), and refactored legacy code to use Drupal 7 APIs and follow best practices.
 
 - name: Transaction Advisors
   classname: transactionadvisors
   logo: transactionadvisors_logo_brand.png
   modal-id: 4
-  description: <a href="http://www.transactionadvisors.com"><em>Transaction Advisors</em></a> is a prestigious technical journal that publishes select white papers, technical articles, and research studies on the critical issues impacting corporate transaction planning, structuring, and execution. Savas provides Drupal development and theming services for Transaction Advisors, working closely with the editorial management to implement new features and designs.
+  description: |
+    <a href="http://www.transactionadvisors.com"><em>Transaction Advisors</em></a> is a prestigious technical journal that publishes select white papers, technical articles, and research studies on the critical issues impacting corporate transaction planning, structuring, and execution. Savas provides Drupal development and theming services for Transaction Advisors, working closely with the editorial management to implement new features and designs.
   
