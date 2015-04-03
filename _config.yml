@@ -45,6 +45,10 @@ permalink: pretty
 # To avoid errors when using Travis-CI
 exclude: [vendor]
 
+# Blog configuration
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 # Prose configuration
 prose:
   rooturl: '_posts'
@@ -79,6 +83,12 @@ prose:
               value: "Kosta Harlan"
             - name: "Tim Stallmann"
               value: "Tim Stallmann"
+      - name: "summary"
+        field:
+          element: "text"
+          label: "Summary"
+          value: ""
+          type: "text"
       - name: "tags"
         field:
           element: "multiselect"
